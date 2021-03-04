@@ -1,4 +1,4 @@
-from src.event_handler import bot
+from src.bot import quest_bot
 import logging
 import sys
 
@@ -11,4 +11,4 @@ formatter = logging.Formatter('%(asctime)s,%(msecs)d %(levelname)-8s [%(filename
 ch.setFormatter(formatter)
 bot_logger.addHandler(ch)
 
-bot.start_discord_client()
+quest_bot.run()
