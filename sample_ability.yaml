@@ -1,0 +1,15 @@
+-
+  cost: 1
+  description: |-
+      You use your strength to overpower a commoner or minion within reach.
+      (You cannot use this ability on bosses.) Describe how you overpower them. You
+      put the target in a compromised position until they spend a turn getting out of
+      it. During this time, basic attacks hit them for double damage.
+  name: Overpower_foo
+  path: Dueling
+  step: 3
+  ability_rolls:
+    - name: 'lucky'
+      upper: 90
+      lower: 10
+      description: "foo bar"
